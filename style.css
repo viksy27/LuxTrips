@@ -1,0 +1,261 @@
+body ul li {
+  list-style-type: none;
+}
+
+body a {
+  text-decoration: none;
+  color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  font-family: "Forum";
+  background-color: #e2d3ce;
+  background-image: url(./img/bg_top_inner.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+header {
+  max-width: 1348px;
+  height: 64px;
+  margin: 24px 44px auto 44px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+  font-family: "Forum";
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation > li {
+  font-size: 16px;
+  line-height: 16px;
+  margin-right: 40px;
+}
+
+.call_me_btn {
+  width: 156px;
+  height: 40px;
+  margin-top: 9px;
+  border: none;
+  border-radius: 60px;
+}
+
+.border_call_me {
+  height: 56px;
+  width: 157px;
+  background-image: url(./icons/border_call_me.svg);
+}
+
+h1 {
+  font-family: "Forum";
+  font-size: 60px;
+  font-weight: 400;
+  height: 70px;
+  text-align: center;
+}
+
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.cards {
+  height: 478px;
+  width: 540px;
+  border-radius: 10px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Forum";
+  font-size: 44px;
+  font-weight: normal;
+}
+.card_images {
+  width: 540px;
+  height: 191px;
+  background-image: url(./img/car.png);
+  color: #fff;
+  font-family: "Forum";
+  font-size: 44px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.card_descriptions {
+  width: 410px;
+  height: 157px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Manrope";
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.request_btn {
+  width: 254px;
+  height: 55px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 74px;
+  background: #0c0b10;
+  color: #fff;
+  font-family: "Forum";
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.hotel {
+  background-image: url(./img/hotel.png);
+}
+
+.villa {
+  background-image: url(./img/villa.png);
+}
+
+.yacht {
+  background-image: url(./img/yacht.png);
+}
+
+.helicopter {
+  background-image: url(./img/helocopter.png);
+  text-align: center;
+}
+
+.jet {
+  background-image: url(./img/jet.png);
+  text-align: center;
+}
+
+.island {
+  margin-top: 100px;
+  background-image: url(./img/bg_island.svg);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1110px;
+  position: relative;
+}
+
+.advice {
+  width: 520px;
+  height: 212px;
+  font-size: 60px;
+}
+
+.inspiration {
+  margin-top: 95px;
+  margin-left: 185px;
+}
+
+.sign_up {
+  font-family: "Manrope";
+  font-size: 16px;
+  color: #fff;
+  margin-top: 4px;
+}
+
+.borders {
+  margin-bottom: -95px;
+}
+
+.email {
+  height: 55px;
+  width: 456px;
+  border: 1px solid #fff;
+  border-radius: 95px;
+  margin-top: 60px;
+  margin-bottom: 134px;
+  padding-left: 30px;
+  background: none;
+  backdrop-filter: blur(5px);
+  font-family: "Manrope";
+  font-size: 16px;
+}
+
+.subscribe {
+  width: 330px;
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  margin-left: -100px;
+}
+
+.border_white {
+  margin-top: -130px;
+  margin-left: 302px;
+}
+
+footer {
+  background-image: url(./img/bg_footer.png);
+  height: 555px;
+}
+
+.luxtrips_footer_logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link_list_luxtrips {
+  margin-top: 100px;
+  text-transform: uppercase;
+  width: 1000px;
+  margin-left: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ftr_white_logo {
+  width: 158px;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.ftr_white_logo:hover {
+  background-image: url(./icons/border_call_me.svg);
+}
+
+.footer_lisence {
+  margin: 125px 165px auto 165px;
+  font-family: "Manrope";
+  font-size: 12px;
+  width: 1110px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lisence_links > a {
+  color: #fff;
+}
